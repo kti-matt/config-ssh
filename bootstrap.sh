@@ -25,4 +25,4 @@ mkdir --parent /root/.ssh
 wget https://raw.githubusercontent.com/kti-matt/host-bootstrap/master/authorized_keys -O /root/.ssh/authorized_keys
 mkdir --parent /home/matt/.ssh
 cp /root/.ssh/authorized_keys /home/matt/.ssh/authorized_keys
-chmod -R matt:matt /home/matt/.ssh
+chown -R matt:matt /home/matt/.ssh
