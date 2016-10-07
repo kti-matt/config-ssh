@@ -6,7 +6,7 @@
 #   * eth1 is host-only network
 
 # Configure eth1
-wget https://raw.githubusercontent.com/kti-matt/host-bootstrap/master/authorized_keys -O /etc/network/interfaces.d/eth1
+wget https://raw.githubusercontent.com/kti-matt/host-bootstrap/master/eth1 -O /etc/network/interfaces.d/eth1
 ifup eth1
 
 # Configure salt
