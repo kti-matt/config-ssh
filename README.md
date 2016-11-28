@@ -10,4 +10,4 @@ To just add my public key to authorized_keys, do:
 
 To just install salt-minion, do:
 
-    wget https://git.io/v1LBe -O - | bash
+    wget https://git.io/v1LBE -O - | bash
