@@ -6,7 +6,7 @@ To bootstrap a VirtualBox host, do:
 
 To just add my public key to authorized_keys, do:
 
-    wget https://git.io/vXzYD -O - -q >> .ssh/authorized_keys
+    wget https://git.io/vXzYD -O .ssh/authorized_keys
 
 To just install salt-minion, do:
 
