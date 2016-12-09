@@ -6,7 +6,7 @@ To bootstrap a VirtualBox host, do:
 
 You can omit some or all steps with:
 
-    ETH=false SALT=false SUDO=false wget https://git.io/vPWEz -O - | bash
+    export CONF_ETH=nope CONF_SALT=nope CONF_SUDO=nope; wget https://git.io/vPWEz -O - | bash
 
 To just add my public key to authorized_keys, do:
 
